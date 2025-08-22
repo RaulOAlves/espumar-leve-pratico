@@ -21,7 +21,7 @@ const HowItWorksSection = () => {
       number: "03",
       icon: CheckCircle,
       title: "Saia com tudo seco",
-      description: "40 minutos depois, pega tudo limpinho e vai embora feliz.",
+      description: "1h20 depois, pega tudo limpinho e seco. Vai embora feliz da vida.",
       tip: "Pode dobrar aqui mesmo"
     }
   ];
@@ -38,9 +38,9 @@ const HowItWorksSection = () => {
           </p>
           
           <div className="bg-accent/10 rounded-2xl p-6 max-w-md mx-auto border border-accent/20">
-            <p className="text-2xl font-bold text-accent mb-2">40 minutos</p>
+            <p className="text-2xl font-bold text-accent mb-2">1h20 total</p>
             <p className="text-muted-foreground">
-              É o tempo que você leva pra resolver tudo e ainda sobra tempo pra um café.
+              35min lavar + 45min secar. Tempo suficiente pra um café e ainda sobra.
             </p>
           </div>
         </div>

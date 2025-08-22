@@ -3,32 +3,32 @@ import { Star, Quote } from "lucide-react";
 const TestimonialsSection = () => {
   const testimonials = [
     {
+      name: "Carine Alves",
+      role: "Avaliação Google",
+      text: "Fácil de usar, ambiente limpo e agradável. Sempre voltarei!",
+      rating: 5,
+      highlight: "Ambiente limpo e agradável"
+    },
+    {
+      name: "Djalma Lima", 
+      role: "Avaliação Google",
+      text: "Lindo, top! Sensacional, bem localizado, tinha tudo que precisávamos, muito prático. Um serviço útil como esse sempre economiza tempo!",
+      rating: 5,
+      highlight: "Muito prático"
+    },
+    {
+      name: "Fernanda Raiol",
+      role: "Avaliação Google", 
+      text: "Serviço de qualidade! As máquinas são fáceis de usar. O lugar é seguro e aconchegante.",
+      rating: 5,
+      highlight: "Seguro e aconchegante"
+    },
+    {
       name: "Dona Célia",
       role: "Moradora de Itajuba há 40 anos",
       text: "Trocei o tanque pela EspuMar. Hoje sobra tempo pra cuidar de mim. Minha filha fica boba quando vê eu pintando as unhas numa segunda-feira.",
       rating: 5,
       highlight: "Sobra tempo pra mim"
-    },
-    {
-      name: "Carlos",
-      role: "Pai de 3 filhos",
-      text: "Com 3 crianças em casa, roupa suja não acaba nunca. Aqui na EspuMar eu resolvo tudo de uma vez. Os meninos até gostam de vir junto.",
-      rating: 5,
-      highlight: "Resolve tudo de uma vez"
-    },
-    {
-      name: "Marina",
-      role: "Trabalha o dia todo",
-      text: "Chego em casa dead. Última coisa que quero é ficar no tanque. Na EspuMar eu venho de manhã, deixo lavando e já vou trabalhar tranquila.",
-      rating: 5,
-      highlight: "Tranquilidade total"
-    },
-    {
-      name: "Seu João",
-      role: "Aposentado ativo",
-      text: "Minha esposa ficou doente e eu não sabia nem ligar a máquina. Aqui é fácil demais. Até aprendi a dobrar direito!",
-      rating: 5,
-      highlight: "Fácil demais"
     }
   ];
 
@@ -87,16 +87,16 @@ const TestimonialsSection = () => {
         <div className="bg-gradient-to-r from-primary to-primary-light rounded-2xl p-8 text-center text-primary-foreground">
           <div className="grid md:grid-cols-3 gap-8">
             <div>
-              <p className="text-4xl font-bold mb-2">500+</p>
-              <p className="text-primary-foreground/80">Famílias atendidas</p>
+              <p className="text-4xl font-bold mb-2">5.0⭐</p>
+              <p className="text-primary-foreground/80">Nota no Google (20 avaliações)</p>
             </div>
             <div>
               <p className="text-4xl font-bold mb-2">18h</p>
               <p className="text-primary-foreground/80">Funcionamento diário</p>
             </div>
             <div>
-              <p className="text-4xl font-bold mb-2">3 anos</p>
-              <p className="text-primary-foreground/80">Fazendo a vida mais fácil</p>
+              <p className="text-4xl font-bold mb-2">500+</p>
+              <p className="text-primary-foreground/80">Famílias atendidas</p>
             </div>
           </div>
           

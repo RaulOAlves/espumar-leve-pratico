@@ -60,16 +60,16 @@ const PromotionsSection = () => {
                 <Zap className="w-8 h-8 text-primary" />
               </div>
               
-              <h3 className="text-xl font-bold text-foreground mb-4">
-                Express 30min
+               <h3 className="text-xl font-bold text-foreground mb-4">
+                Cashback 10x1
               </h3>
               
               <p className="text-muted-foreground mb-4">
-                Roupa pouca? Programa rápido pra quem tá com pressa!
+                A cada 10 lavagens, você ganha 1 grátis de volta!
               </p>
               
-              <div className="bg-primary/10 text-primary font-bold text-lg px-4 py-2 rounded-full">
-                Só R$ 8,00
+               <div className="bg-primary/10 text-primary font-bold text-lg px-4 py-2 rounded-full">
+                R$ 16,90
               </div>
             </div>
           </div>
@@ -86,16 +86,16 @@ const PromotionsSection = () => {
                 <span className="text-2xl">👨‍👩‍👧‍👦</span>
               </div>
               
-              <h3 className="text-xl font-bold text-foreground mb-4">
-                Pacote Família
+               <h3 className="text-xl font-bold text-foreground mb-4">
+                Preço Fixo
               </h3>
               
               <p className="text-muted-foreground mb-4">
-                Roupa da casa toda? Melhor negócio pra família grande!
+                Sempre o mesmo preço justo. Lavar + secar incluído!
               </p>
               
-              <div className="bg-accent/10 text-accent font-bold text-lg px-4 py-2 rounded-full">
-                A partir de R$ 15,00
+               <div className="bg-accent/10 text-accent font-bold text-lg px-4 py-2 rounded-full">
+                R$ 16,90
               </div>
             </div>
           </div>
@@ -107,16 +107,16 @@ const PromotionsSection = () => {
                 <Clock className="w-8 h-8 text-primary" />
               </div>
               
-              <h3 className="text-xl font-bold text-foreground mb-4">
-                Final de Semana
+               <h3 className="text-xl font-bold text-foreground mb-4">
+                Promoções Futuras
               </h3>
               
               <p className="text-muted-foreground mb-4">
-                Domingo de sol é pra curtir! Deixa a roupa com a gente.
+                Indicação de amigos e outras surpresas chegando em breve!
               </p>
               
               <div className="bg-primary/10 text-primary font-bold text-lg px-4 py-2 rounded-full">
-                Horário livre
+                Em breve
               </div>
             </div>
           </div>

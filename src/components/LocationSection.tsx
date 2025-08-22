@@ -7,7 +7,7 @@ const LocationSection = () => {
   };
 
   const handleMapsClick = () => {
-    window.open("https://maps.google.com/?q=R.+Cirino+Cabral,+831+-+Itajuba+-+Barra+Velha/SC", "_blank");
+    window.open("https://maps.app.goo.gl/xk8ei3bUgeVXEHsd6", "_blank");
   };
 
   return (
