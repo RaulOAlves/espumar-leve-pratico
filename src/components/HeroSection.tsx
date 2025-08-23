@@ -3,7 +3,10 @@ import heroImage from "@/assets/hero-lavanderia.jpg";
 
 const HeroSection = () => {
   const handleWhatsAppClick = () => {
-    window.open("https://wa.me/5547989292036?text=Oi! Quero resolver minha roupa agora na EspuMar!", "_blank");
+    const phoneNumber = "5547989292036";
+    const message = "Oi! Quero resolver minha roupa agora na EspuMar!";
+    const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+    window.open(url, "_blank");
   };
 
   return (

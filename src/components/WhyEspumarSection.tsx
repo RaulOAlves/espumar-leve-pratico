@@ -5,8 +5,8 @@ const WhyEspumarSection = () => {
     {
       icon: Clock,
       title: "Seu tempo livre começa aqui",
-      description: "40 minutos e você já tá livre pra curtir o que importa.",
-      highlight: "40 min"
+      description: "1h20 e você já tá livre pra curtir o que importa.",
+      highlight: "1h20 total"
     },
     {
       icon: Heart,
