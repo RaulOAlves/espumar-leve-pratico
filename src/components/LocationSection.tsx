@@ -1,17 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { MapPin, Clock, Smartphone, Navigation } from "lucide-react";
-
 const LocationSection = () => {
   const handleWhatsAppClick = () => {
     window.open("https://wa.me/5547989292036?text=Oi! Quero saber mais sobre a localização da EspuMar!", "_blank");
   };
-
   const handleMapsClick = () => {
     window.open("https://maps.app.goo.gl/xk8ei3bUgeVXEHsd6", "_blank");
   };
-
-  return (
-    <section className="py-20 bg-gradient-to-b from-accent/5 to-background">
+  return <section className="py-20 bg-gradient-to-b from-accent/5 to-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
@@ -69,22 +65,12 @@ const LocationSection = () => {
 
               {/* Action Buttons */}
               <div className="space-y-4">
-                <Button 
-                  variant="hero" 
-                  size="lg" 
-                  onClick={handleMapsClick}
-                  className="w-full text-lg py-4 h-auto"
-                >
+                <Button variant="hero" size="lg" onClick={handleMapsClick} className="w-full text-lg py-4 h-auto">
                   <Navigation className="w-5 h-5 mr-2" />
                   Ver no Google Maps
                 </Button>
 
-                <Button 
-                  variant="whatsapp" 
-                  size="lg" 
-                  onClick={handleWhatsAppClick}
-                  className="w-full text-lg py-4 h-auto"
-                >
+                <Button variant="whatsapp" size="lg" onClick={handleWhatsAppClick} className="w-full text-lg py-4 h-auto">
                   <Smartphone className="w-5 h-5 mr-2" />
                   Chamar no WhatsApp
                 </Button>
@@ -93,28 +79,7 @@ const LocationSection = () => {
 
             {/* Map Placeholder & Directions */}
             <div>
-              <div className="bg-gradient-to-br from-primary/10 to-primary-light/10 rounded-2xl p-8 border border-primary/20 mb-8">
-                <h3 className="text-2xl font-bold text-primary text-center mb-6">
-                  🗺️ Como Chegar
-                </h3>
-                
-                <div className="space-y-4 text-center">
-                  <div className="bg-card rounded-xl p-4 border border-border/50">
-                    <p className="font-semibold text-foreground mb-1">Saindo do Centro</p>
-                    <p className="text-muted-foreground text-sm">5 minutos de carro pela Rua Principal</p>
-                  </div>
-                  
-                  <div className="bg-card rounded-xl p-4 border border-border/50">
-                    <p className="font-semibold text-foreground mb-1">Vindo da Praia</p>
-                    <p className="text-muted-foreground text-sm">10 minutos, direção ao bairro Itajuba</p>
-                  </div>
-                  
-                  <div className="bg-card rounded-xl p-4 border border-border/50">
-                    <p className="font-semibold text-foreground mb-1">Estacionamento</p>
-                    <p className="text-muted-foreground text-sm">Vagas livres na frente, fácil de parar</p>
-                  </div>
-                </div>
-              </div>
+              
 
               {/* Social Proof */}
               <div className="bg-accent/10 rounded-2xl p-6 border border-accent/20 text-center">
@@ -152,8 +117,6 @@ const LocationSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default LocationSection;

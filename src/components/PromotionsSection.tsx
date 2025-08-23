@@ -1,13 +1,10 @@
 import { Button } from "@/components/ui/button";
 import { Clock, Zap, AlertCircle } from "lucide-react";
-
 const PromotionsSection = () => {
   const handleWhatsAppClick = () => {
     window.open("https://wa.me/5547989292036?text=Oi! Vi que tem só 6 máquinas livres. Quero garantir minha vaga!", "_blank");
   };
-
-  return (
-    <section className="py-20 bg-gradient-to-b from-background to-accent/5">
+  return <section className="py-20 bg-gradient-to-b from-background to-accent/5">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
@@ -39,12 +36,7 @@ const PromotionsSection = () => {
                 Prioridade pra quem chama no WhatsApp. Não deixa pra depois!
               </p>
 
-              <Button 
-                variant="whatsapp" 
-                size="lg" 
-                onClick={handleWhatsAppClick}
-                className="text-xl px-8 py-4 h-auto animate-bounce hover:animate-none"
-              >
+              <Button variant="whatsapp" size="lg" onClick={handleWhatsAppClick} className="text-xl px-8 py-4 h-auto animate-bounce hover:animate-none">
                 🚨 Garantir minha vaga AGORA
               </Button>
             </div>
@@ -86,9 +78,7 @@ const PromotionsSection = () => {
                 <span className="text-2xl">👨‍👩‍👧‍👦</span>
               </div>
               
-               <h3 className="text-xl font-bold text-foreground mb-4">
-                Preço Fixo
-              </h3>
+               
               
               <p className="text-muted-foreground mb-4">
                 Sempre o mesmo preço justo. Lavar + secar incluído!
@@ -161,8 +151,6 @@ const PromotionsSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PromotionsSection;
